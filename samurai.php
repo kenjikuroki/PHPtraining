@@ -126,3 +126,13 @@ for($i = 1; $i <=30; $i++){
 
 <?
 /*クラスモジュールパッケージ8-1*/
+class Hoge{
+    function hello(){
+        print("Hello PHP!");
+    }
+}
+
+$hoge = new Hoge();
+$hoge->hello();
+# => Hello PHP!と表示される
+?>
